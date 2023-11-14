@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.qqq{
+  width: 300px;
+  height: 200px;
+  background-image: url('https://cdn.fishki.net/upload/users/2019/08/20/375168/043f6a8e4c8b59d9c713305c3be3c0db.jpg'); /* Укажите путь к вашему изображению */
+  background-size: cover; 
+  background-position: center; 
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 200px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.heading {
+  color: rgb(139, 95, 0);
+  text-align: center;
+}
+ 
+.text {
+  color: rgb(0, 139, 42);
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
